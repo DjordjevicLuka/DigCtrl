@@ -1,23 +1,23 @@
 ---
 label: How Forestry Works
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: layout
   label: Layout
   type: text
   hidden: false
-  default: ''
+  default: post
 - name: title
   label: Title
   type: text
   hidden: false
-  default: ''
+  default: New title
 - name: date
   label: Date
   type: datetime
   hidden: false
-  default: ''
+  default: 2018-09-09 22:00:00 +0000
 - name: category
   label: Category
   type: tag_list
@@ -27,22 +27,22 @@ fields:
   label: Firsttitle
   type: text
   hidden: false
-  default: ''
+  default: This is a test
 - name: firstParagraph
   label: Firstparagraph
   type: textarea
   hidden: false
-  default: ''
+  default: Let's see if it is working
 - name: secondTitle
   label: Secondtitle
   type: text
   hidden: false
-  default: ''
+  default: This is a new template
 - name: secondParagraph
   label: Secondparagraph
   type: textarea
   hidden: false
-  default: ''
+  default: Based on our first post
 - name: thirdTitle
   label: Thirdtitle
   type: text
