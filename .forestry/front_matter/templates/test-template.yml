@@ -15,3 +15,5 @@ fields:
       type: datafiles
   default:
   - Something
+pages:
+- _posts/new-post.md
