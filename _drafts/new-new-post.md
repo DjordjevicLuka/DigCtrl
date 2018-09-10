@@ -6,5 +6,12 @@ firstTitle: This is a test
 firstParagraph: Let's see if it is working
 secondTitle: This is a new template
 secondParagraph: Based on our first post
+category: []
+thirdTitle: ''
+thirdParagraph: ''
+firstImage: ''
+secondImage: ''
+thirdImage: ''
 
 ---
+tasdasd
