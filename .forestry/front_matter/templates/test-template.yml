@@ -16,5 +16,5 @@ fields:
   default:
   - Something
 pages:
-- _posts/new-post.md
+- _posts/2018-09-10-new-post.md
 - _posts/new-post.md
