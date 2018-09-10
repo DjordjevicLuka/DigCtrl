@@ -1,0 +1,495 @@
+/* ========================================================================== */
+/* MEDIA */
+/* ========================================================================== */
+@media only screen and (max-width: 768px) {
+    .logo-bijeli {
+      position: absolute;
+      top: 10px;
+      left: -20px;
+      width: 200px; }
+    .logo-purple {
+      position: absolute;
+      top: 10px;
+      left: -10px;
+      width: 200px; }
+    #header {
+      box-sizing: border-box;
+      text-align: center; }
+    #ourprograms p {
+      padding: 10px !important; }
+    #digital_logo {
+      margin: auto;
+      margin-top: 40%; }
+    #arhitecture p {
+      text-align: center; }
+    footer p {
+      padding: 0 15px;
+      box-sizing: border-box; }
+    #parallax h1 {
+      box-sizing: border-box;
+      padding: 0 10px; }
+    .navigation__button {
+      position: fixed;
+      margin-right: -20px;
+      margin-top: -4.2px; }
+    #digital_logo {
+      display: inline-block;
+      text-align: center;
+      /*CSS transitions*/
+      -o-transition-property: none !important;
+      -moz-transition-property: none !important;
+      -ms-transition-property: none !important;
+      -webkit-transition-property: none !important;
+      transition-property: none !important;
+      /*CSS transforms*/
+      -o-transform: none !important;
+      -moz-transform: none !important;
+      -ms-transform: none !important;
+      -webkit-transform: none !important;
+      transform: none !important;
+      /*CSS animations*/
+      -webkit-animation: none !important;
+      -moz-animation: none !important;
+      -o-animation: none !important;
+      -ms-animation: none !important;
+      animation: none !important; }
+    #title {
+      padding-top: 30px !important;
+      text-align: center; } }
+  
+  /* ========================================================================== */
+  /* ANIMACIJE */
+  /* ========================================================================== */
+  @keyframes shine {
+    0% {
+      transform: translatex(0px) translatey(0px); }
+    25% {
+      transform: translatex(-40px) translatey(0px); }
+    50% {
+      transform: translatex(-40px) translatey(-40px); }
+    75% {
+      transform: translatex(40px) translatey(0px); }
+    100% {
+      transform: translatex(0) translatey(0); } }
+  
+  @keyframes fadein {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  
+  /* ========================================================================== */
+  /* SHRINK & PULLUP CLASSES */
+  /* ========================================================================== */
+  .navbar.shrink {
+    float: left;
+    height: 80px;
+    background-color: #fff; }
+  
+  .navbar.shrink .logo-purple {
+    display: block; }
+  
+  .navbar.shrink .logo-bijeli {
+    display: none; }
+  
+  .navigation__button.pullup {
+    position: fixed;
+    top: 0.2rem;
+    right: 3rem; }
+  
+  body,
+  html {
+    height: 100%;
+    box-sizing: border-box; }
+  
+  /* ========================================================================== */
+  /* NAVBAR */
+  /* ========================================================================== */
+  .navbar {
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.4s; }
+  
+  .navbar-brand .logo-bijeli {
+    display: block;
+    padding-top: 15px;
+    padding-left: 30px;
+    float: left; }
+  
+  .navbar-brand .logo-purple {
+    display: none;
+    padding-top: 5px;
+    padding-left: 15px;
+    width: 200px;
+    float: left; }
+  
+  /* ========================================================================== */
+  /* HEADER */
+  /* ========================================================================== */
+  #header {
+    background: url(../assets/img/background.png) repeat fixed 100%;
+    background-size: cover;
+    height: 100%vh;
+    color: white;
+    width: 100%;
+    position: relative; }
+  
+  #title {
+    animation-name: fadein;
+    animation-duration: 4s;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding-top: 400px;
+    font-weight: 200; }
+  
+  .small {
+    font-size: 1rem;
+    font-family: sans-serif;
+    display: none; }
+  
+  #digital_logo {
+    display: inline-block;
+    text-align: center;
+    animation-name: shine;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    margin-top: 20%;
+    width: 550px; }
+  
+  .header__naslov {
+    font-size: 48px;
+    line-height: 41px;
+    font-weight: 200;
+    color: white;
+    letter-spacing: 0px;
+    font-family: "Open Sans"; }
+  
+  /* ========================================================================== */
+  /* ARHITECTURE */
+  /* ========================================================================== */
+  #arhitecture h1 {
+    text-align: center;
+    font-size: 47.825px;
+    line-height: 55.477px;
+    color: #515b69;
+    font-weight: 300;
+    padding: 30px 0; }
+  
+  #arhitecture p,
+  ul {
+    color: #7f8795;
+    font-size: 110%; }
+  
+  #purplee {
+    color: #6a46b0 !important;
+    padding-bottom: 60px !important; }
+  
+  /* ========================================================================== */
+  /* OUR PROGRAMS */
+  /* ========================================================================== */
+  #ourprograms {
+    box-sizing: border-box;
+    width: 100%; }
+  
+  #ourprograms .left {
+    background-color: #9166D1;
+    color: #372261; }
+  
+  #ourprograms .right {
+    background-color: #623D8E;
+    color: #aa85f2; }
+  
+  #ourprograms h1 {
+    font-size: 37.825px;
+    line-height: 50.477px;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    padding: 55px 0; }
+  
+  .slike {
+    margin: auto;
+    display: flex; }
+  
+  .slike img {
+    margin: auto;
+    transition: all .9s; }
+  
+  .slike img:hover {
+    transform: scale(1.1); }
+  
+  #ourprograms p {
+    padding: 7px 60px; }
+  
+  #ourprograms p:first-child {
+    margin-top: 30px; }
+  
+  #ourprograms p:last-child {
+    margin-bottom: 50px; }
+  
+  .paragrafi {
+    margin: 40px 0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.2; }
+  
+  /* ========================================================================== */
+  /* RECOMMENDATIONS */
+  /* ========================================================================== */
+  #recommendations {
+    text-align: center;
+    box-sizing: border-box; }
+  
+  #recommendations h1 {
+    font-size: 37.825px;
+    line-height: 50.477px;
+    color: #515b69;
+    font-weight: 300;
+    text-align: center;
+    padding: 55px 0;
+    text-align: center; }
+  
+  #maliheader {
+    font-size: 20px !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.2;
+    color: black;
+    padding-top: 0; }
+  
+  .naslovi {
+    text-align: center;
+    margin-top: 50px; }
+  
+  #recommendations h1 {
+    margin: 0 0;
+    padding: 0 0; }
+  
+  .slikee1 {
+    margin: 50px 0; }
+  
+  /* ========================================================================== */
+  /* PARALLAX */
+  /* ========================================================================== */
+  #parallax {
+    background: url(../assets/img/background.png) repeat fixed 100%;
+    width: 100%;
+    height: 600px;
+    background-size: cover; }
+  
+  #parallax h1 {
+    text-align: center;
+    font-size: 38.26px;
+    line-height: 45.912px;
+    font-weight: 500;
+    color: #fff;
+    padding-top: 350px; }
+  
+  /* ========================================================================== */
+  /* CONTACT */
+  /* ========================================================================== */
+  #contact {
+    text-align: center; }
+  
+  .fa-map-marker {
+    padding: 10px;
+    color: #7453b8; }
+  
+  #contact h1 {
+    text-align: center;
+    font-size: 38.26px;
+    line-height: 45.912px;
+    font-weight: 500;
+    color: #515B69;
+    padding-top: 50px; }
+  
+  #contact span {
+    color: #6A46B0;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1.2; }
+  
+  #contact p {
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 1.2;
+    color: #7f8795; }
+  
+  .contact__paragrafi {
+    margin: 50px 0; }
+  
+  .lokacija {
+    margin: auto;
+    border: 1pt solid #6A46B0;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 50px;
+    transition: all 0.4s; }
+  
+  /* ========================================================================== */
+  /* GOOGLE MAP */
+  /* ========================================================================== */
+  #map {
+    height: 400px;
+    width: 100%;
+    background-color: grey;
+    margin-bottom: 15px; }
+  
+  /* ========================================================================== */
+  /* FOOTER */
+  /* ========================================================================== */
+  footer {
+    text-align: center;
+    padding: 30px 0;
+    color: #7f8795;
+    background-color: #ECF0F5; }
+  
+  /* ====================================================================== */
+  /*BACK TO TOP BUTTON  */
+  /* ====================================================================== */
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 29px;
+    z-index: 10000;
+    border: none;
+    outline: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    opacity: 0.7;
+    width: 45px;
+    height: 35px;
+    transition: all 0.4s ease-in-out; }
+  
+  #myBtn:hover {
+    background-color: #6A46B0;
+    color: #fff;
+    border: 1pt mediumpurple solid; }
+  
+  /* ================================================================== */
+  /* BURGER BUTTON */
+  /* ================================================================== */
+  .navigation__checkbox {
+    display: none; }
+  
+  .navigation__button {
+    height: 4rem;
+    width: 4rem;
+    position: fixed;
+    top: 1.3rem;
+    right: 3rem;
+    border-radius: 50%;
+    z-index: 2000;
+    text-align: center;
+    cursor: pointer; }
+  
+  .navigation__background {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    position: fixed;
+    top: -12.5rem;
+    right: 45.5rem;
+    background-image: radial-gradient(rgba(106, 70, 176, 0.9), rgba(98, 61, 142, 0.9));
+    z-index: 1000;
+    transition: transform 0.8s cubic-bezier(0.86, 0, 0.07, 1); }
+  
+  .navigation__nav {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1500;
+    opacity: 0;
+    width: 0;
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55); }
+  
+  .navigation__list {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    list-style: none;
+    text-align: center;
+    width: 100%; }
+  
+  .navigation__item {
+    margin: 0.5rem; }
+  
+  .navigation__link:link, .navigation__link:visited {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 350;
+    padding: 1rem 2rem;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #fff 50%);
+    background-size: 220%;
+    transition: all .4s; }
+    .navigation__link:link span, .navigation__link:visited span {
+      margin-right: 1.5rem;
+      display: inline-block; }
+  
+  .navigation__link:hover, .navigation__link:active {
+    background-position: 100%;
+    color: #6A46B0;
+    transform: translateX(1rem); }
+  
+  .navigation__checkbox:checked ~ .navigation__background {
+    transform: scale(80); }
+  
+  .navigation__checkbox:checked ~ .navigation__nav {
+    opacity: 1;
+    width: 100%; }
+  
+  .navigation__icon {
+    position: relative;
+    margin-top: 2.5rem; }
+    .navigation__icon, .navigation__icon::before, .navigation__icon::after {
+      width: 1.6rem;
+      height: 1.5px;
+      background-color: #DCDCDC;
+      display: inline-block; }
+    .navigation__icon::before, .navigation__icon::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      transition: all .2s; }
+    .navigation__icon::before {
+      top: -.5rem; }
+    .navigation__icon::after {
+      top: .5rem; }
+  
+  .navigation__button:hover .navigation__icon::before {
+    top: -0.7rem; }
+  
+  .navigation__button:hover .navigation__icon::after {
+    top: 0.7rem; }
+  
+  .navigation__checkbox:checked + .navigation__button .navigation__icon {
+    background-color: transparent; }
+  
+  .navigation__checkbox:checked + .navigation__button .navigation__icon::before {
+    top: 0;
+    transform: rotate(135deg); }
+  
+  .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
+    top: 0;
+    transform: rotate(-135deg); }
+  

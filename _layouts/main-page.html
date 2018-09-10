@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>{{site.title}}</title>
+
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="{{site.url}}/css/main-page.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+
+
+<body>
+
+
+  <!-- =================================================================== -->
+  <!--NAVBAR  -->
+  <!-- =================================================================== -->
+
+  <nav class="navbar fixed-top">
+    <a class="navbar-brand" href="#">
+      <img class="logo-bijeli img-fluid" src="assets/img/logo-white.png" alt="logo">
+    </a>
+    <a class="navbar-brand" href="#">
+      <img class="logo-purple img-fluid" src="assets/img/logo-purple.png" alt="logo">
+    </a>
+    <div class="navigation ml-auto">
+      <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+      <label for="navi-toggle" class="navigation__button">
+        <span class="navigation__icon">&nbsp;</span>
+      </label>
+
+      <div class="navigation__background">&nbsp;</div>
+
+      <nav class="navigation__nav">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#architecture" class="navigation__link">What Are We Doing</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">How Do We Do That</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Contact Us</a>
+          </li>
+          <li class="navigation__item">
+            <a href="/blog/" class="navigation__link">Blog</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </nav>
+
+  <!-- ======================================================================= -->
+  <!-- HEADER -->
+  <!-- ======================================================================= -->
+
+  <section id="header">
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6 crvena ml-auto">
+        <div id="digital-logo">
+        <img class="img-fluid" id="digital_logo" src="assets/img/logo-letter.png" alt="logo-letter">
+      </div>
+      </div>
+      <div class="col-md-6 zelena">
+        <div id="title">
+          <p>{{page.moto}}</p>
+          <p class="small">{{page.moto}}</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+
+  <!-- ======================================================================= -->
+  <!-- ARHITECTURE -->
+  <!-- ======================================================================= -->
+
+  <div id="arhitecture">
+    <div class="container">
+      <h1>{{page.our-business}}</h1>
+      <p>{{page.business-explanation}}</p>
+      <ul>
+          {% for information in site.data.businessInfo %}
+          <li>{{information.info}}</li>
+          {% endfor %}
+      </ul>
+
+      <h1 id="purplee">{{page.support}}
+      </h1>
+    </div>
+  </div>
+
+  <!-- ======================================================================= -->
+  <!-- OURPROGRAMS -->
+  <!-- ======================================================================= -->
+
+  <div id="ourprograms" class="container-fluid">
+
+    <div class="row">
+      <div class="left col-md-6">
+        <h1>{{page.back-end}}
+        </h1>
+        <div class="slike">
+          <img src="assets/img/core.png" alt="">
+        </div>
+        <div class="paragrafi">
+                {% for information in site.data.back-endInfo %}
+                <p>{{information.info}}</p>
+                {% endfor %}
+        </div>
+      </div>
+      <div class="right col-md-6">
+        <h1>{{page.front-end}}</h1>
+        <div class="slike">
+          <img src="assets/img/angular.png" alt="">
+        </div>
+        <div class="paragrafi">
+          {% for information in site.data.front-endInfo %}
+          <p>{{information.info}}</p>
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+
+    <!-- ======================================================================= -->
+    <!-- RECOMMENDATIONS -->
+    <!-- ======================================================================= -->
+
+    <div id="recommendations">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="naslovi">
+            <h1>{{page.databaseEngine}}</h1>
+            <h1>{{page.recommendation}}</h1>
+          </div>
+          <div class="slikee1">
+            <img src="assets/img/mysql.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-6 naslovi">
+          <h1>{{page.securityPartner}}</h1>
+          <h1 id="maliheader">{{page.partner}}
+
+          </h1>
+          <div class="slikee1">
+            <img src="assets/img/gdata.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- ======================================================================= -->
+  <!-- PARALLAX SECTION -->
+  <!-- ======================================================================= -->
+
+
+  <div id="parallax">
+    <h1>{{page.developers}}
+      <br> {{page.ideas}}</h1>
+  </div>
+
+
+  <!-- ======================================================================= -->
+  <!-- CONTACT -->
+  <!-- ======================================================================= -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="lokacija">
+            <i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
+
+          </div>
+          <h1>Contact Us</h1>
+        </div>
+      </div>
+      <div class="row contact__paragrafi">
+        <div class="col-md-4 col-sm-12">
+          <p>
+            <span> E |</span>{{site.email}}</p>
+          <p>
+            <span>PIB |</span>{{page.pib}}</p>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <p>
+            <span>M | </span>{{page.phone}}
+
+          </p>
+          <p>
+            <span>PDV/VAT |</span> {{page.vat}}
+
+          </p>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <p>
+            <span> A |</span> {{page.address}}
+
+          </p>
+          <p>
+            <span>B |</span> {{page.bank}}
+
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- ======================================================================= -->
+  <!-- MAP -->
+  <!-- ======================================================================= -->
+
+
+  <div id="map">
+  </div>
+
+  <!-- ======================================================================= -->
+  <!-- FOOTER -->
+  <!-- ======================================================================= -->
+
+
+  <footer>
+    <p>© Copyright 2017 | {{site.title}} | All Rights Reserved</p>
+  </footer>
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+
+
+  <!-- ======================================================================= -->
+  <!-- NAVBAR SHRINK ON SCROLL -->
+  <!-- ======================================================================= -->
+
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa fa-caret-up" aria-hidden="true"></i>
+  </button>
+
+
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $('.navbar').addClass('shrink');
+      } else {
+        $('.navbar').removeClass('shrink');
+
+      }
+    });
+  </script>
+
+  <!-- ======================================================================= -->
+  <!-- BURGER BUTTON PULL UP ON SCROLL -->
+  <!-- ======================================================================= -->
+
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 50) {
+        $('.navigation__button').addClass('pullup');
+      } else {
+        $('.navigation__button').removeClass('pullup');
+
+      }
+    });
+  </script>
+
+
+  <!-- ======================================================================= -->
+  <!-- GOOGLE MAP -->
+  <!-- ======================================================================= -->
+
+  <script>
+    function initMap() {
+      var uluru = {
+        lat: 42.449853,
+        lng: 19.207961
+      };
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 14,
+        center: uluru
+
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAh7dcmw10MbPKGmOf39VZP6kDv_v5b3SA&callback=initMap">
+  </script>
+
+  <!-- =================================================================== -->
+  <!-- BACK TO TOP BUTTON -->
+  <!-- =================================================================== -->
+
+  <script>
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+        document.getElementById("myBtn").style.display = "block";
+      } else {
+        document.getElementById("myBtn").style.display = "none";
+      }
+    }
+
+
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+
+
+  
+
+</body>
+
+</html>

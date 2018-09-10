@@ -1,0 +1,6 @@
+- info: .NET Core is a cross-platform, open source, and modular .NET platform for creating modern web apps, microservices, libraries and console applications. This release includes the .NET Core runtime, libraries and tools and the ASP.NET Core libraries.
+
+- info: ASP.NET Core is a modular framework that runs on both the full .NET Framework, on Windows, and the cross-platform .NET Core. The framework is a complete rewrite that unites the previously separate ASP.NET MVC and Web API into a single programming model. ASP.NET Core is a cross-platform, high-performance, open-source framework for building modern, cloud-based, Internet-connected applications. With ASP.NET Core, we can':' Build web apps and services, IoT apps, and mobile backends.
+
+- info: ASP.NET Core is developed in such a way that, it could be integrated seamlessly with various client-side frameworks that include Angular which is our front-end framework recommendation. Ultimately the ASP.NET Core app can deploy .NET Core or .NET Framework run-time for betterment & best output.
+  

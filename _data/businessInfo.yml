@@ -1,0 +1,16 @@
+- info: "Other applications will be able to reuse the functionality exposed by your layers. This is very important because
+          of more needs for integrating multiple applications (web and mobile) into one information system."
+
+- info: "Having your application not layered means that you have to deal with all security threats in one place which is very
+          difficult. Having your application distributed to layers makes it much easier for design and implement security."
+
+- info: "You will be able to distribute your layers over multiple physical tiers. This can make a very good impact on your
+          application by improving performance (sometimes), scalability and fault tolerance."
+
+- info: "The maintenance of your application is easier because of the low coupling between layers."
+
+- info: "Adding more functionality to your application is made easier."
+
+- info: "Layers make your application more testable."
+
+- info: "Building well-formed layers make the orientation in your application easier."
