@@ -1,0 +1,20 @@
+---
+label: Test Template
+hide_body: false
+is_partial: false
+fields:
+- type: list
+  label: Sortable list
+  name: sortable_list
+  description: 'sortable_list: Sortable list'
+  config:
+    min: '2'
+    max: '5'
+    use_select: false
+    source:
+      type: datafiles
+  default:
+  - Something
+pages:
+- _posts/2018-09-10-new-post.md
+- _posts/2018-09-10-new-post.md

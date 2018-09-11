@@ -1,0 +1,72 @@
+---
+label: How Forestry Works
+hide_body: false
+is_partial: false
+fields:
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: post
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: New title
+- name: date
+  label: Date
+  type: datetime
+  hidden: false
+  default: 2018-09-09 22:00:00 +0000
+- name: category
+  label: Category
+  type: tag_list
+  hidden: false
+  default: ''
+- name: firstTitle
+  label: Firsttitle
+  type: text
+  hidden: false
+  default: This is a test
+- name: firstParagraph
+  label: Firstparagraph
+  type: textarea
+  hidden: false
+  default: Let's see if it is working
+- name: secondTitle
+  label: Secondtitle
+  type: text
+  hidden: false
+  default: This is a new template
+- name: secondParagraph
+  label: Secondparagraph
+  type: textarea
+  hidden: false
+  default: Based on our first post
+- name: thirdTitle
+  label: Thirdtitle
+  type: text
+  hidden: false
+  default: ''
+- name: thirdParagraph
+  label: Thirdparagraph
+  type: text
+  hidden: false
+  default: ''
+- name: firstImage
+  label: Firstimage
+  type: text
+  hidden: false
+  default: ''
+- name: secondImage
+  label: Secondimage
+  type: text
+  hidden: false
+  default: ''
+- name: thirdImage
+  label: Thirdimage
+  type: text
+  hidden: false
+  default: ''
+pages:
+- _posts/2018-09-09-new-new-post.md
