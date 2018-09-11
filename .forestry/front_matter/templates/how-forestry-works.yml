@@ -69,6 +69,6 @@ fields:
   hidden: false
   default: ''
 pages:
-- _posts/new-title-d.md
+- _posts/2018-09-09-new-title-d.md
 - _posts/2018-09-09-new-template-test.md
 - _posts/2018-09-09-new-new-post.md
