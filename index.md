@@ -1,13 +1,11 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: main-page
-moto: makes your business simple
+moto: makes your business simple edit by Dario
 our-business: We are developing a multi-tier architecture web applications
-business-explanation: In software engineering, multi-tier architecture or
-        multilayered architecture is a client-server architecture in which presentation, application processing,
-        and data management functions are physically separated. Some of the benefits of an N-layered architecture
+business-explanation: In software engineering, multi-tier architecture or multilayered
+  architecture is a client-server architecture in which presentation, application
+  processing, and data management functions are physically separated. Some of the
+  benefits of an N-layered architecture
 support: On the wings of the big ones
 back-end: Our back end solution
 front-end: Our front end solution
@@ -19,7 +17,8 @@ developers: Developers with hot ideas
 ideas: that actually works.
 bank: 520-34337-78 Hipotekarna Banka
 address: Valtezara Bogišića 22, Podgorica
-phone: +382 (0) 67 219 857
-pib: 03084434
+phone: "+382 (0) 67 219 857"
+pib: '03084434'
 vat: 30/31-15989-9
+
 ---
