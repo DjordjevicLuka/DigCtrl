@@ -1,6 +1,6 @@
 ---
 layout: main-page
-moto: makes your business simple edit by Dario
+moto: makes your business simple
 our-business: We are developing a multi-tier/test1 architecture web applications
 business-explanation: In software engineering, multi-tier architecture or multilayered
   architecture is a client-server architecture in which presentation, application
